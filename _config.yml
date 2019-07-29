@@ -22,7 +22,7 @@ url: "https://svarlet.github.io" # the base hostname & protocol for your site, e
 twitter_username: svarlet
 github_username:  svarlet
 linkedin_username: svarlet
-google_analytics: "UA-144735851-1"
+google_analytics: UA-144735851-1
 
 # Build settings
 markdown: kramdown
