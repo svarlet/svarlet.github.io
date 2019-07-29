@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Servant framework, or framework servant? | svarlet.github.io</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Servant framework, or framework servant?" />
+<meta name="author" content="Sébastien Varlet" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Robert C. Martin published the “Clean Architecture: A Craftsman’s Guide for Software Structure and Design” book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc." />
+<meta property="og:description" content="Robert C. Martin published the “Clean Architecture: A Craftsman’s Guide for Software Structure and Design” book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc." />
+<link rel="canonical" href="https://svarlet.github.io/architecture/frameworks/solid/dependency/2019/07/29/framework-servant-or-servant-framework.html" />
+<meta property="og:url" content="https://svarlet.github.io/architecture/frameworks/solid/dependency/2019/07/29/framework-servant-or-servant-framework.html" />
+<meta property="og:site_name" content="svarlet.github.io" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-07-29T14:00:00+01:00" />
+<script type="application/ld+json">
+{"description":"Robert C. Martin published the “Clean Architecture: A Craftsman’s Guide for Software Structure and Design” book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.","author":{"@type":"Person","name":"Sébastien Varlet"},"@type":"BlogPosting","url":"https://svarlet.github.io/architecture/frameworks/solid/dependency/2019/07/29/framework-servant-or-servant-framework.html","headline":"Servant framework, or framework servant?","dateModified":"2019-07-29T14:00:00+01:00","datePublished":"2019-07-29T14:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://svarlet.github.io/architecture/frameworks/solid/dependency/2019/07/29/framework-servant-or-servant-framework.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://svarlet.github.io/feed.xml" title="svarlet.github.io" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">svarlet.github.io</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Servant framework, or framework servant?</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-07-29T14:00:00+01:00" itemprop="datePublished">Jul 29, 2019
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Sébastien Varlet</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Robert C. Martin published the “Clean Architecture: A Craftsman’s Guide for Software Structure and Design” book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.</p>
+
+<p>I’m an architecture nerd. I develop my architecture tool belt to guide myself when designing solutions to business problems. I seek designs which reduce rigidity and complexity so I can hi-five myself later. I used to wonder how to solve problem X <em>with framework Y</em>. The problems became increasingly specific to my domain and finding solutions <em>for framework Y</em> made my life harder. There is only so much a framework can do for your business.</p>
+
+<p>Robert C. Martin makes a valid point:</p>
+
+<blockquote>
+  <p>[…] regardless of their high-minded motives, those [framework] authors do not have your best interest at heart. They can’t, because they don’t know you, and they don’t know your problems.</p>
+</blockquote>
+
+<p>Like any product, frameworks only solve a subset of your problems. Let’s make sure they don’t create more!</p>
+
+<h2 id="frameworks-are-not-free">Frameworks are not free</h2>
+
+<p>Are you now struggling to write maintainable software? Are you nostalgic of your application’s infancy? Some will say it’s a cheeky comparison. I don’t think so.</p>
+
+<p>When you solve a problem, do you solve problem X <em>with framework Y</em>? No? will your google search history confirm?</p>
+
+<p>If the delivery of value to your customers depends on your ability to make a framework do it, then your framework is not a multiplier of your talent. It’s a divisor. Perhaps it is time to reconsider the place of the framework in your architecture.</p>
+
+<h2 id="break-your-chains">Break your chains!</h2>
+
+<p>Programming took a good turn for me when I stopped worrying about mastering a framework and learnt timeless design principles.</p>
+
+<p>I also used to solve problem X <em>with framework Y</em>. Experience taught me that frameworks are not built for my business domain. This is the space in which my company develops its know-how, make products and sell them. Eventually, I learned that frameworks are not ways of life. I appreciate how they can help me but I also appreciate their cost. Frameworks are not free. When I introduce a framework in my project, I make an investment. If it dictates how to solve my problems, eventually it becomes the problem. I stopped seeing them as a rigid architecture, or a required element of the architecture. Frameworks are just a tool, with pros and cons.</p>
+
+<p>Describe your application. Is it a React+Redux application with middleware X, Y, Z? Is it a Phoenix/Ecto/LiveView application?</p>
+
+<p>Or is it an elixir conference planner? An online shop selling vegan beauty products? Or real time fleet tracking?</p>
+
+<p>When my mindset is aligned with a business, I don’t think anymore in terms of Phoenix, Ecto, Postgres, HTML, Channels, Rest, etc. They matter but, at the same time, they are irrelevant.</p>
+
+<p>Learning these principles of Clean Architecture will show you how to design software focused on your business where frameworks are plugins.</p>
+
+<p>Not the other way around.</p>
+
+<h2 id="for-functional-programs-too">For functional programs too!</h2>
+
+<p>I learnt the meaning and implications of the SOLID principles when I was using Object Oriented Programming languages. These principles have guided me for half a decade as I developed frontend applications, backend applications and scripts in Ruby, Actionscript or Java.</p>
+
+<p>Today, I develop software with Elixir and React. I believe the SOLID principles also apply when developing with a functional programming language. After all, unlike the Gang of Four design patterns, the SOLID principles do not impose a specific view on the solution. They do not require building blocks only present in Object Oriented Programming languages.</p>
+
+<p>I feel that this opinion does not resonate much in the Elixir community. There are of course people who swiftly remind you to not think like an OO programmer. In my experience, it’s not explained by general disagreement. My intuition is it’s not valued as much as mastering some frameworks. Why is there a a lack of interest? Or is it already general tacit knowledge? I’m skeptical.</p>
+
+<p>To be fair to the elixir community, I observed this well before departing for Functional City. That suggests the issue is global. Yet I feel this is perhaps exacerbated in Functional City. Some functional programming enthusiasts wrongly associates these principles with OOP languages.</p>
+
+<h2 id="unlearn-learn-relearn">Unlearn, Learn, Relearn</h2>
+
+<p>As one starts to learn elixir, they will repeatedly hear they must “unlearn everything” so they don’t try to structure their programs with the usual suspects of OO languages: classes, objects, constructors, inheritance, etc. I think it’s a good piece of advice. It helped me too. But how much should we unlearn?</p>
+
+<p>Some techniques and patterns reduce complexity and are paradigm agnostic: abstraction, polymorphism, dependency inversion, etc. Disagree? Have you heard about Haskell Typeclasses? Clojure protocols?</p>
+
+<p>Posts on these topics on the Elixir forum don’t look as popular than posts related to Phoenix or Ecto. I don’t have the stats though, do you?</p>
+
+<p><a href="https://youtu.be/lDKCSheBc-8">Phoenix is not your application</a>. Let’s add that Ecto is not your application either. So why do we focus so much on the delivery and the storage of bits and not as much on our domains? Why don’t we assemble both with dependencies going in the right direction?</p>
+
+<h2 id="the-things-i-now-do">The things I now do</h2>
+
+<p>Frameworks are great. Despite their learning curve, they save my time. I use them all the time. I am grateful to all their authors and contributors.</p>
+
+<p>However, I keep frameworks at a distance so they remain <em>a</em> tool, one that I could easily replace by something more convenient, faster or simpler.</p>
+
+<p>When I write some persistence logic, it fulfills a contract defined by the business rule. It talks the language of the business rule. It gets data shaped by the business rule. It returns data in the shape defined by the business rule. If I let Ecto Changesets penetrate the business layer, the business rule serves Ecto and the relational database. I don’t want that.</p>
+
+<p>When I write a controller, it delegates the work to the business rule. It triggers the business rule with data which shape is defined by the business rule. The business rule return data shaped for its own convenience. If I let a Conn struct penetrate the business layer, the business rule serves Phoenix and the web. I don’t want that.</p>
+
+<p>My business layer remains agnostic of the tools which supports my work. The business layer is never chained to choices of yesterday. Today, I’m using Ecto. Tomorrow, I can replace it. Perhaps a full-fledged Phoenix application is more than I needed. Let’s replace it with the Raxx toolkit!</p>
+
+<p>My code is simple and I can pivot as my domain knowledge improves.</p>
+
+  </div><a class="u-url" href="/architecture/frameworks/solid/dependency/2019/07/29/framework-servant-or-servant-framework.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">svarlet.github.io</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">svarlet.github.io</li><li><a class="u-email" href="mailto:sebastien DOT varlet AT gmail DOT com">sebastien DOT varlet AT gmail DOT com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/svarlet"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">svarlet</span></a></li><li><a href="https://www.linkedin.com/in/svarlet"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">svarlet</span></a></li><li><a href="https://www.twitter.com/svarlet"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">svarlet</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Thoughts and experiments about software architecture and test driven development.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

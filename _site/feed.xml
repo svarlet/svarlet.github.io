@@ -1,13 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-29T12:29:04+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">svarlet.github.io</title><subtitle>Thoughts and experiments about software architecture and test driven development.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2019/06/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-06-24T15:11:43+01:00</published><updated>2019-06-24T15:11:43+01:00</updated><id>http://localhost:4000/jekyll/update/2019/06/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/06/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://svarlet.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://svarlet.github.io/" rel="alternate" type="text/html" /><updated>2019-07-29T16:01:55+01:00</updated><id>https://svarlet.github.io/feed.xml</id><title type="html">svarlet.github.io</title><subtitle>Thoughts and experiments about software architecture and test driven development.</subtitle><entry><title type="html">Servant framework, or framework servant?</title><link href="https://svarlet.github.io/architecture/frameworks/solid/dependency/2019/07/29/framework-servant-or-servant-framework.html" rel="alternate" type="text/html" title="Servant framework, or framework servant?" /><published>2019-07-29T14:00:00+01:00</published><updated>2019-07-29T14:00:00+01:00</updated><id>https://svarlet.github.io/architecture/frameworks/solid/dependency/2019/07/29/framework-servant-or-servant-framework</id><content type="html" xml:base="https://svarlet.github.io/architecture/frameworks/solid/dependency/2019/07/29/framework-servant-or-servant-framework.html">&lt;p&gt;Robert C. Martin published the “Clean Architecture: A Craftsman’s Guide for Software Structure and Design” book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;I’m an architecture nerd. I develop my architecture tool belt to guide myself when designing solutions to business problems. I seek designs which reduce rigidity and complexity so I can hi-five myself later. I used to wonder how to solve problem X &lt;em&gt;with framework Y&lt;/em&gt;. The problems became increasingly specific to my domain and finding solutions &lt;em&gt;for framework Y&lt;/em&gt; made my life harder. There is only so much a framework can do for your business.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Robert C. Martin makes a valid point:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;[…] regardless of their high-minded motives, those [framework] authors do not have your best interest at heart. They can’t, because they don’t know you, and they don’t know your problems.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Like any product, frameworks only solve a subset of your problems. Let’s make sure they don’t create more!&lt;/p&gt;
+
+&lt;h2 id=&quot;frameworks-are-not-free&quot;&gt;Frameworks are not free&lt;/h2&gt;
+
+&lt;p&gt;Are you now struggling to write maintainable software? Are you nostalgic of your application’s infancy? Some will say it’s a cheeky comparison. I don’t think so.&lt;/p&gt;
+
+&lt;p&gt;When you solve a problem, do you solve problem X &lt;em&gt;with framework Y&lt;/em&gt;? No? will your google search history confirm?&lt;/p&gt;
+
+&lt;p&gt;If the delivery of value to your customers depends on your ability to make a framework do it, then your framework is not a multiplier of your talent. It’s a divisor. Perhaps it is time to reconsider the place of the framework in your architecture.&lt;/p&gt;
+
+&lt;h2 id=&quot;break-your-chains&quot;&gt;Break your chains!&lt;/h2&gt;
+
+&lt;p&gt;Programming took a good turn for me when I stopped worrying about mastering a framework and learnt timeless design principles.&lt;/p&gt;
+
+&lt;p&gt;I also used to solve problem X &lt;em&gt;with framework Y&lt;/em&gt;. Experience taught me that frameworks are not built for my business domain. This is the space in which my company develops its know-how, make products and sell them. Eventually, I learned that frameworks are not ways of life. I appreciate how they can help me but I also appreciate their cost. Frameworks are not free. When I introduce a framework in my project, I make an investment. If it dictates how to solve my problems, eventually it becomes the problem. I stopped seeing them as a rigid architecture, or a required element of the architecture. Frameworks are just a tool, with pros and cons.&lt;/p&gt;
+
+&lt;p&gt;Describe your application. Is it a React+Redux application with middleware X, Y, Z? Is it a Phoenix/Ecto/LiveView application?&lt;/p&gt;
+
+&lt;p&gt;Or is it an elixir conference planner? An online shop selling vegan beauty products? Or real time fleet tracking?&lt;/p&gt;
+
+&lt;p&gt;When my mindset is aligned with a business, I don’t think anymore in terms of Phoenix, Ecto, Postgres, HTML, Channels, Rest, etc. They matter but, at the same time, they are irrelevant.&lt;/p&gt;
+
+&lt;p&gt;Learning these principles of Clean Architecture will show you how to design software focused on your business where frameworks are plugins.&lt;/p&gt;
+
+&lt;p&gt;Not the other way around.&lt;/p&gt;
+
+&lt;h2 id=&quot;for-functional-programs-too&quot;&gt;For functional programs too!&lt;/h2&gt;
+
+&lt;p&gt;I learnt the meaning and implications of the SOLID principles when I was using Object Oriented Programming languages. These principles have guided me for half a decade as I developed frontend applications, backend applications and scripts in Ruby, Actionscript or Java.&lt;/p&gt;
+
+&lt;p&gt;Today, I develop software with Elixir and React. I believe the SOLID principles also apply when developing with a functional programming language. After all, unlike the Gang of Four design patterns, the SOLID principles do not impose a specific view on the solution. They do not require building blocks only present in Object Oriented Programming languages.&lt;/p&gt;
+
+&lt;p&gt;I feel that this opinion does not resonate much in the Elixir community. There are of course people who swiftly remind you to not think like an OO programmer. In my experience, it’s not explained by general disagreement. My intuition is it’s not valued as much as mastering some frameworks. Why is there a a lack of interest? Or is it already general tacit knowledge? I’m skeptical.&lt;/p&gt;
+
+&lt;p&gt;To be fair to the elixir community, I observed this well before departing for Functional City. That suggests the issue is global. Yet I feel this is perhaps exacerbated in Functional City. Some functional programming enthusiasts wrongly associates these principles with OOP languages.&lt;/p&gt;
+
+&lt;h2 id=&quot;unlearn-learn-relearn&quot;&gt;Unlearn, Learn, Relearn&lt;/h2&gt;
+
+&lt;p&gt;As one starts to learn elixir, they will repeatedly hear they must “unlearn everything” so they don’t try to structure their programs with the usual suspects of OO languages: classes, objects, constructors, inheritance, etc. I think it’s a good piece of advice. It helped me too. But how much should we unlearn?&lt;/p&gt;
+
+&lt;p&gt;Some techniques and patterns reduce complexity and are paradigm agnostic: abstraction, polymorphism, dependency inversion, etc. Disagree? Have you heard about Haskell Typeclasses? Clojure protocols?&lt;/p&gt;
+
+&lt;p&gt;Posts on these topics on the Elixir forum don’t look as popular than posts related to Phoenix or Ecto. I don’t have the stats though, do you?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/lDKCSheBc-8&quot;&gt;Phoenix is not your application&lt;/a&gt;. Let’s add that Ecto is not your application either. So why do we focus so much on the delivery and the storage of bits and not as much on our domains? Why don’t we assemble both with dependencies going in the right direction?&lt;/p&gt;
+
+&lt;h2 id=&quot;the-things-i-now-do&quot;&gt;The things I now do&lt;/h2&gt;
+
+&lt;p&gt;Frameworks are great. Despite their learning curve, they save my time. I use them all the time. I am grateful to all their authors and contributors.&lt;/p&gt;
+
+&lt;p&gt;However, I keep frameworks at a distance so they remain &lt;em&gt;a&lt;/em&gt; tool, one that I could easily replace by something more convenient, faster or simpler.&lt;/p&gt;
+
+&lt;p&gt;When I write some persistence logic, it fulfills a contract defined by the business rule. It talks the language of the business rule. It gets data shaped by the business rule. It returns data in the shape defined by the business rule. If I let Ecto Changesets penetrate the business layer, the business rule serves Ecto and the relational database. I don’t want that.&lt;/p&gt;
+
+&lt;p&gt;When I write a controller, it delegates the work to the business rule. It triggers the business rule with data which shape is defined by the business rule. The business rule return data shaped for its own convenience. If I let a Conn struct penetrate the business layer, the business rule serves Phoenix and the web. I don’t want that.&lt;/p&gt;
+
+&lt;p&gt;My business layer remains agnostic of the tools which supports my work. The business layer is never chained to choices of yesterday. Today, I’m using Ecto. Tomorrow, I can replace it. Perhaps a full-fledged Phoenix application is more than I needed. Let’s replace it with the Raxx toolkit!&lt;/p&gt;
+
+&lt;p&gt;My code is simple and I can pivot as my domain knowledge improves.&lt;/p&gt;</content><author><name>Sébastien Varlet</name></author><summary type="html">Robert C. Martin published the “Clean Architecture: A Craftsman’s Guide for Software Structure and Design” book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.</summary></entry></feed>
