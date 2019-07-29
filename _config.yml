@@ -24,7 +24,8 @@ github_username:  svarlet
 linkedin_username: svarlet
 google_analytics: UA-144735851-1
 show_excerpts: true
-
+disqus:
+  shortname: svarlet
 
 # Build settings
 markdown: kramdown
