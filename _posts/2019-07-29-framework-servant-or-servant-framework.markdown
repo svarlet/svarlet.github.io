@@ -4,7 +4,8 @@ author: Sébastien Varlet
 title: "Servant framework, or framework servant?"
 date: "2019-07-29 14:00:00 +0100"
 comments: true
-categories: architecture frameworks SOLID dependency
+categories: [blog, code]
+tags: [architecture, frameworks, SOLID, dependency, elixir, phoenix, ecto]
 ---
 
 Robert C. Martin published the “Clean Architecture: A Craftsman’s Guide for Software Structure and Design” book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.
