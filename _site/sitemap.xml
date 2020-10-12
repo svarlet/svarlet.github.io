@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/architecture/2019/07/29/framework-servant-or-servant-framework.html</loc>
+<loc>https://svarlet.github.io/architecture/2019/07/29/framework-servant-or-servant-framework.html</loc>
 <lastmod>2019-07-29T14:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about-me/</loc>
+<loc>https://svarlet.github.io/about-me/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/categories.html</loc>
+<loc>https://svarlet.github.io/categories.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://svarlet.github.io/</loc>
 </url>
 </urlset>
