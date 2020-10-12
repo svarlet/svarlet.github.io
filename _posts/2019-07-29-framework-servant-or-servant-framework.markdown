@@ -7,8 +7,24 @@ comments: true
 categories: [Architecture]
 tags: [frameworks, SOLID, dependency, elixir, phoenix, ecto, clean architecture]
 ---
+<div style="float: right; margin: 0 0 1.5em 1.5em">
+    <a 
+        target="_blank" 
+        href="https://www.amazon.co.uk/gp/product/0134494164/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0134494164&linkCode=as2&tag=svarlet-21&linkId=cf84cd7ff1657072ad7a6efb3f644dc5">
+        <img
+            border="0"
+            src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=0134494164&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=svarlet-21" >
+    </a>
+    <img
+        src="//ir-uk.amazon-adsystem.com/e/ir?t=svarlet-21&l=am2&o=2&a=0134494164"
+        width="1"
+        height="1"
+        border="0"
+        alt=""
+        style="border:none !important; margin:0px !important;" />
+</div>
 
-Robert C. Martin published the “Clean Architecture: A Craftsman’s Guide for Software Structure and Design” book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.
+Robert C. Martin published the [“Clean Architecture: A Craftsman’s Guide for Software Structure and Design”](https://www.amazon.co.uk/gp/product/0134494164/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0134494164&linkCode=as2&tag=svarlet-21&linkId=f3260a70d1ddc2f1b4a307479fe620e6) book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.
 
 I’m an architecture nerd. I develop my architecture tool belt to guide myself when designing solutions to business problems. I seek designs which reduce rigidity and complexity so I can hi-five myself later. I used to wonder how to solve problem X _with framework Y_. The problems became increasingly specific to my domain and finding solutions _for framework Y_ made my life harder. There is only so much a framework can do for your business.
 
