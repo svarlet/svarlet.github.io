@@ -7,7 +7,9 @@ comments: true
 categories: [Architecture]
 tags: [frameworks, SOLID, dependency, elixir, phoenix, ecto, clean architecture]
 ---
-<div class="top-right-img">
+Robert C. Martin published the [“Clean Architecture: A Craftsman’s Guide for Software Structure and Design”](https://www.amazon.co.uk/gp/product/0134494164/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0134494164&linkCode=as2&tag=svarlet-21&linkId=f3260a70d1ddc2f1b4a307479fe620e6) book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.
+
+<div class="right-img">
     <a 
         target="_blank" 
         href="https://www.amazon.co.uk/gp/product/0134494164/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0134494164&linkCode=as2&tag=svarlet-21&linkId=cf84cd7ff1657072ad7a6efb3f644dc5">
@@ -24,7 +26,6 @@ tags: [frameworks, SOLID, dependency, elixir, phoenix, ecto, clean architecture]
         style="border:none !important; margin:0px !important;" />
 </div>
 
-Robert C. Martin published the [“Clean Architecture: A Craftsman’s Guide for Software Structure and Design”](https://www.amazon.co.uk/gp/product/0134494164/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0134494164&linkCode=as2&tag=svarlet-21&linkId=f3260a70d1ddc2f1b4a307479fe620e6) book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.
 
 I’m an architecture nerd. I develop my architecture tool belt to guide myself when designing solutions to business problems. I seek designs which reduce rigidity and complexity so I can hi-five myself later. I used to wonder how to solve problem X _with framework Y_. The problems became increasingly specific to my domain and finding solutions _for framework Y_ made my life harder. There is only so much a framework can do for your business.
 
