@@ -7,7 +7,7 @@ comments: true
 categories: [Architecture]
 tags: [frameworks, SOLID, dependency, elixir, phoenix, ecto, clean architecture]
 ---
-<div style="float: right; margin: 0 0 1.5em 1.5em">
+<div class="top-right-img">
     <a 
         target="_blank" 
         href="https://www.amazon.co.uk/gp/product/0134494164/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0134494164&linkCode=as2&tag=svarlet-21&linkId=cf84cd7ff1657072ad7a6efb3f644dc5">
