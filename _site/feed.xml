@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://svarlet.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://svarlet.github.io/" rel="alternate" type="text/html" /><updated>2020-10-12T18:24:08+01:00</updated><id>https://svarlet.github.io/feed.xml</id><title type="html">svarlet.github.io</title><subtitle>Thoughts and experiments about leadership and software engineering.</subtitle><entry><title type="html">Servant framework, or framework servant?</title><link href="https://svarlet.github.io/architecture/2019/07/29/framework-servant-or-servant-framework.html" rel="alternate" type="text/html" title="Servant framework, or framework servant?" /><published>2019-07-29T14:00:00+01:00</published><updated>2019-07-29T14:00:00+01:00</updated><id>https://svarlet.github.io/architecture/2019/07/29/framework-servant-or-servant-framework</id><content type="html" xml:base="https://svarlet.github.io/architecture/2019/07/29/framework-servant-or-servant-framework.html">&lt;p&gt;Robert C. Martin published the &lt;a href=&quot;https://www.amazon.co.uk/gp/product/0134494164/ref=as_li_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=0134494164&amp;amp;linkCode=as2&amp;amp;tag=svarlet-21&amp;amp;linkId=f3260a70d1ddc2f1b4a307479fe620e6&quot;&gt;“Clean Architecture: A Craftsman’s Guide for Software Structure and Design”&lt;/a&gt; book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-09T11:30:06+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">svarlet.github.io</title><subtitle>Thoughts and experiments about leadership and software engineering.</subtitle><entry><title type="html">The surest path to burning out at a new job</title><link href="http://localhost:4000/engineering%20management/hiring/burn%20out/2021/06/09/the-surest-path-to-burning-out-at-a-new-job.html" rel="alternate" type="text/html" title="The surest path to burning out at a new job" /><published>2021-06-09T11:08:00+01:00</published><updated>2021-06-09T11:08:00+01:00</updated><id>http://localhost:4000/engineering%20management/hiring/burn%20out/2021/06/09/the-surest-path-to-burning-out-at-a-new-job</id><content type="html" xml:base="http://localhost:4000/engineering%20management/hiring/burn%20out/2021/06/09/the-surest-path-to-burning-out-at-a-new-job.html">&lt;p&gt;My friends Tony and Clem have both joined a new company and were sharing their debut recently. The prolonged isolation has made our life difficult, yet starting a new job in this context constitutes an additional anxiety factor. As I listened to their stories, I noticed a familiar pattern.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-new-journey-begins&quot;&gt;A new journey begins&lt;/h2&gt;
+&lt;p&gt;Yesterday (at the previous gig), we were performing to deliver value to our customers. Additionally, our work possibly improved our peers’ lives. But today is different. We don’t know any of our peers. The Product is quite fuzzy, and while we may know some customers, we don’t know anything about the users. The internal roles, processes, and customs also constitute significant unknowns. Here is the paradox: we excel at &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;insert tech here&amp;gt;&lt;/code&gt;, yet we cannot contribute. There are things we must discover and learn before we can. Many of us want to demonstrate from day one that we are a worthy addition to the team, that we “belong”, yet none of us can.&lt;/p&gt;
+
+&lt;p&gt;That raises multiple questions. Initially, do we and should we oscillate between learning and performing? What are the consequences when we don’t? What relationship do we create between our past and present performance? And, would the simple act of observing this relationship relax it? Can we change our environment to eliminate harmful, spiralling self-judgement? Does any of this relate to the “Impostor Syndrome”?&lt;/p&gt;
+
+&lt;h2 id=&quot;a-path-to-burning-out&quot;&gt;A path to burning out&lt;/h2&gt;
+&lt;p&gt;Years of hiring have taught me that a candidate’s potential for growth matters as much as their current skillset. The people who interviewed us possess an accurate understanding of their needs, and they’ve identified that we could be the missing piece of the puzzle. Our hard skills, soft skills, cultural fitness, past experiences, appetite to grow, etc., convinced them that we are a good match now, and they also believe that we’ll get better.
+Unfortunately, our self-judgemental brain seems to polarise the situation: either I perform great from day one, or they’ll let me go. Though, trying to demonstrate our eventual performance now causes anxiety, exhaustion, and eventually burnout. Can we find a healthy balance between getting fired and burning out?&lt;/p&gt;
+
+&lt;p&gt;Finding the sweet spot is a multidimensional problem: your abilities, capacity, peers’ availability, team’s needs, the importance of the role to you, your value-for-money as seen by your manager, etc. And, of course, you and your company evolve in every dimension over time. This complexity and your foreignness outweigh your intelligence and experience. That certainly explains why I’ve observed all engineers suffer regardless of their seniority.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-yourself-up-for-success&quot;&gt;Setting yourself up for success&lt;/h2&gt;
+&lt;p&gt;Let’s appreciate the subjectivity of success, but I’ve never met anyone seeking burnout. Therefore, regardless of your success criteria, the universal solution I suggest is easy: talk to your manager and identify each other’s expectations at different milestones. &lt;strong&gt;What do they expect from you in your first week? month? quarter?&lt;/strong&gt; Tip: I also find it valuable to discuss what is not expected from you at every milestone.&lt;/p&gt;
+
+&lt;p&gt;After hearing your manager’s expectation, I suggest that you &lt;strong&gt;calibrate them&lt;/strong&gt;. Indeed, you and your manager are still two strangers who have ~talked~ interviewed for a couple of hours at most. Their appreciation of your skillset is likely inaccurate, which could drive you to exhaustion, boredom, or both.&lt;/p&gt;
+
+&lt;p&gt;Finally, I recommend that you &lt;strong&gt;share your expectations too&lt;/strong&gt;.  Will you need specific training to match these expectations? How often do you need feedback on your progress? How should feedback be communicated to you? Will you need a mentor among your peers?&lt;/p&gt;
+
+&lt;p&gt;As VP of Engineering, I noticed every hire guess differently the expectations we had for them. It seems to affect everyone but the juniors. The juniors have this “Everything is new to me, and I’m here to learn” candour. Fearless, they inquire about our expectations, clarify, and commit. Others act as if asking the same questions would downgrade themselves. I empathise; I’ve been there too. Appreciating the damage, I  make each other’s expectation emerge during early conversations. Often, that means lowering their bar.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-them-up-for-success&quot;&gt;Setting them up for success&lt;/h2&gt;
+&lt;p&gt;I don’t recall any past employer where my onboarding was personalised. At best, HR standardised the process: it tried to be exhaustive but ignored the team and role a new hire would play. At worst, there wasn’t any onboarding process at all.&lt;/p&gt;
+
+&lt;p&gt;In the first case, the process attempted to help me get up to speed. Still, it couldn’t define expectations, and it would prematurely drown me with administration information. Like learning how to request time off in your first week? Unfortunately, “getting up to speed” is perhaps chasing an impossible outcome which puts new hires on rails for anxiety and exhaustion.&lt;/p&gt;
+
+&lt;p&gt;In the second case, the absence of an onboarding process occasionally created a closer relationship with my manager. Paradoxically, the lack of an onboarding process produced a more stable ground for me.
+Let’s clarify this point of view: I don’t believe onboarding processes are inherently harmful. Yet, let’s improve them continuously and chase a richer set of objectives than “getting up to speed”.
+Even so, have you designed the process for your team? or did HR standardise it? have you defined an explicit journey? have you customised it for each new hire? Do they discover your customs and internal tools just in time, or all at once? Do you check up on them with frequent 1-1s? Has anyone reached out to define, clarify, or calibrate their onboarding? What signals are you accidentally ignoring?&lt;/p&gt;
+
+&lt;h2 id=&quot;a-parting-thought&quot;&gt;A parting thought&lt;/h2&gt;
+&lt;p&gt;As managers, should we lift the weight of starting this journey off their shoulders? Should this activity require work from them or work from us? Naming this activity “onboarding” seems to place the burden of starting the journey on the new hires. We should care more about every new hire, so the burden is on us, and “Caretaking” seems more appropriate than “Onboarding”.&lt;/p&gt;</content><author><name>Sébastien Varlet</name></author><category term="onboarding" /><category term="burn out" /><category term="burnout" /><category term="undefined expectations lead employees to burnout" /><category term="engineering management" /><category term="emotional intelligence" /><category term="anxiety" /><summary type="html">My friends Tony and Clem have both joined a new company and were sharing their debut recently. The prolonged isolation has made our life difficult, yet starting a new job in this context constitutes an additional anxiety factor. As I listened to their stories, I noticed a familiar pattern.</summary></entry><entry><title type="html">Hiring, Recruitment, and Retention Roundtable with Barry Cranford and Adam Martin</title><link href="http://localhost:4000/events/hiring/engineering%20management/2020/10/10/hiring-recruitment-and-retention-roundtable.html" rel="alternate" type="text/html" title="Hiring, Recruitment, and Retention Roundtable with Barry Cranford and Adam Martin" /><published>2020-10-10T00:00:00+01:00</published><updated>2020-10-10T00:00:00+01:00</updated><id>http://localhost:4000/events/hiring/engineering%20management/2020/10/10/hiring-recruitment-and-retention-roundtable</id><content type="html" xml:base="http://localhost:4000/events/hiring/engineering%20management/2020/10/10/hiring-recruitment-and-retention-roundtable.html">&lt;p&gt;As VP of Engineering, hiring gets an important share of my attention and agenda. Staffing makes-or-breaks a team, thus why I pay so much attention to how we hire and who we hire.&lt;/p&gt;
+
+&lt;p&gt;Lately, after negotiating fiercely (I didn’t have to) with the CEO for hiring 4 extra software engineers, I though it was a good time to empower my team to revisit our hiring process. Of course, some guidelines remained: keep it humane, empathise with the time we steal from each candidate and the stress we cause them. Above all, let’s answer the question “would we work well together?” which is a 2-way street, thus need to be embodied by the hiring process.&lt;/p&gt;
+
+&lt;p&gt;Just in time, Barry Cranford from RecWorks and the London CTOs community announced a roundtable betweem senior engineering leaders on the topic of hiring with Adam Martin, CTO and author of “Hire the first 100”.&lt;/p&gt;
+
+&lt;div class=&quot;videoWrapper&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vZJAAx3q4b4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;quotes&quot;&gt;Quotes&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://youtu.be/vZJAAx3q4b4?t=1307&quot;&gt;21:47&lt;/a&gt; “What are “top candidates? They are the people who will have the greater impact in their role.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;my-key-takeaways&quot;&gt;My key takeaways&lt;/h2&gt;
+
+&lt;h3 id=&quot;feeding-your-hiring-pipeline&quot;&gt;Feeding your hiring pipeline&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How to find more good people? The recruiter should not only show interest for the candidate they are speaking to, they should also ask the candidate who they talk to when they get stuck. For example:
+    &lt;ul&gt;
+      &lt;li&gt;Recruiter: “who is your go-to person when you struggle on a technical problem?
+  Candidate: “Oh, it’s John Toddler.”
+  Recruiter: “would you happen to have his contact details?”&lt;/li&gt;
+      &lt;li&gt;Of course, this is not to extract the best-of-the-bests but it helps multiply the number of good candidates.&lt;/li&gt;
+      &lt;li&gt;Similarly, identifying the authors of relevant comments on technically strong blog posts represents a good pool of candidates for your hiring pipeline.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/vZJAAx3q4b4?t=2358&quot;&gt;39:18&lt;/a&gt; Yet another similar approach is to check the &lt;a href=&quot;http://git-awards.com&quot;&gt;GitAwards&lt;/a&gt; website to see how people are ranked by their community based on their github contributions.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;screening-and-take-home-exercises&quot;&gt;Screening and take-home exercises&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/vZJAAx3q4b4?t=359&quot;&gt;5:59&lt;/a&gt; A participant said they hire 20 engineers a month and don’t observe that take-home tests correlate with performance afterward. It is useful only when it supports a conversation thereafter.&lt;/li&gt;
+  &lt;li&gt;Take-home tests become useful when the job requirements have strict constraints like strong skills in C++, Asm, or Python.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;avoiding-bias&quot;&gt;Avoiding bias&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/vZJAAx3q4b4?t=1054&quot;&gt;17:34&lt;/a&gt; For one participant, the technical skills matters less than the ability to communicate clearly due to the essential complexity of their business domain.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/vZJAAx3q4b4?t=1172&quot;&gt;19:32&lt;/a&gt; Suggestion to evaluate each candidate with less bias.
+    &lt;ul&gt;
+      &lt;li&gt;Define 20 questions that will be asked to every candidate.&lt;/li&gt;
+      &lt;li&gt;Grade every questions: first question is worth 3 points, second is worth 5 points, etc.&lt;/li&gt;
+      &lt;li&gt;Score all candidate’s answers&lt;/li&gt;
+      &lt;li&gt;Compute the final score of each candidate.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How do we remove bias from interviews? “Cultural fit” tends to favor same origin, same studies, same pay grade, etc. rather than talent.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;quality-of-your-hiring-process&quot;&gt;Quality of your hiring process&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do you measure the quality of your hiring process? beyond simply asking the candidate for feedback?&lt;/li&gt;
+  &lt;li&gt;Complex, large, vague, questions like the Google question are useful to keep your senior engineers engaged with the general hiring process. Otherwise the answers tend to be so shallow or plain wrong that they aren’t really useful to assess the candidate’s hard skills.&lt;/li&gt;
+  &lt;li&gt;How to train interviewers?
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/vZJAAx3q4b4?t=2928&quot;&gt;48:48&lt;/a&gt; The &lt;em&gt;Shadowing process&lt;/em&gt; is the core of NHS (National Health Service) teaching. It is brutally efficient to train surgeons. It can be summarised as “see one, run one, teach one”.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adam Martin’s &lt;a href=&quot;linkedin.com/in/adam-martin-b3ba4414a&quot;&gt;LinkedIn profile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Adam’s book will be published soon, here is the official website while we wait: &lt;a href=&quot;https://hirefirst100.com&quot;&gt;“Hire the first 100s”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Barry Cranford’s &lt;a href=&quot;http://linkedin.com/in/barrycranford&quot;&gt;LinkedIn profile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://recworks.co.uk&quot;&gt;RecWorks&lt;/a&gt; website&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://www.linkedin.com/company/london-ctos/&quot;&gt;London CTOs community&lt;/a&gt; homepage&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Sébastien Varlet</name></author><category term="how to hire software engineers" /><category term="cost efficiency of a hiring process" /><category term="hire the first 100" /><category term="engineering management" /><summary type="html">As VP of Engineering, hiring gets an important share of my attention and agenda. Staffing makes-or-breaks a team, thus why I pay so much attention to how we hire and who we hire.</summary></entry><entry><title type="html">Servant framework, or framework servant?</title><link href="http://localhost:4000/architecture/2019/07/29/framework-servant-or-servant-framework.html" rel="alternate" type="text/html" title="Servant framework, or framework servant?" /><published>2019-07-29T14:00:00+01:00</published><updated>2019-07-29T14:00:00+01:00</updated><id>http://localhost:4000/architecture/2019/07/29/framework-servant-or-servant-framework</id><content type="html" xml:base="http://localhost:4000/architecture/2019/07/29/framework-servant-or-servant-framework.html">&lt;p&gt;Robert C. Martin published the &lt;a href=&quot;https://www.amazon.co.uk/gp/product/0134494164/ref=as_li_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=0134494164&amp;amp;linkCode=as2&amp;amp;tag=svarlet-21&amp;amp;linkId=f3260a70d1ddc2f1b4a307479fe620e6&quot;&gt;“Clean Architecture: A Craftsman’s Guide for Software Structure and Design”&lt;/a&gt; book. It describes principles to design maintainable software, that is software that we can easily change for new business requirements. Many topics are covered by the author: functional programming, the SOLID principles, layers, components, boundaries, frameworks, etc.&lt;/p&gt;
 
 &lt;div class=&quot;right-img&quot;&gt;
     &lt;a target=&quot;_blank&quot; href=&quot;https://www.amazon.co.uk/gp/product/0134494164/ref=as_li_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=0134494164&amp;amp;linkCode=as2&amp;amp;tag=svarlet-21&amp;amp;linkId=cf84cd7ff1657072ad7a6efb3f644dc5&quot;&gt;
